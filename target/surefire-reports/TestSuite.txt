@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.771 sec <<< FAILURE!
+setUpDriver(com.intellisqa.app.AppTest)  Time elapsed: 0.568 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: D:\Data\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:176)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:117)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:112)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:128)
+	at com.intellisqa.app.AppTest.setUpDriver(AppTest.java:34)
+

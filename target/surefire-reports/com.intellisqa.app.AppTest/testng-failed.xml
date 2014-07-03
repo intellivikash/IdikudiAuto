@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.intellisqa.app.AppTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.intellisqa.app.AppTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSignup"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.intellisqa.app.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.intellisqa.app.AppTest] -->
